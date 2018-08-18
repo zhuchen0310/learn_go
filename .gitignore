@@ -1,0 +1,12 @@
+*.pyc
+*.xml
+*log
+*.iml
+*.name
+*.idea
+*.build
+*.dbs
+*.eggs
+*.project.egg-info
+*.setup
+*.db
