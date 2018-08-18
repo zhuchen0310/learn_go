@@ -1,0 +1,22 @@
+hash: 6c76cd473d5e4739e0f2a01315eb7fad4d02e063cee61f59447a5edfb23f5c28
+updated: 2018-08-18T17:55:36.707619374+08:00
+imports:
+- name: git.oschina.net/qiangmzsx/beegofreecache
+  version: c3f87fb05fd38a54826f8f5874cbbab323a9fa02
+- name: github.com/astaxie/beego
+  version: 323a1c4214101331a4b71922c23d19b7409ac71f
+- name: github.com/bitly/go-simplejson
+  version: 0c965951289cce37dec52ad1f34200fefc816777
+- name: github.com/coocood/freecache
+  version: 036298587d3a11a2946fecb24ef983708e2e8944
+- name: github.com/garyburd/redigo
+  version: 569eae59ada904ea8db7a225c2b47165af08735a
+  subpackages:
+  - redis
+- name: github.com/go-sql-driver/mysql
+  version: 99ff426eb706cffe92ff3d058e168b278cabf7c7
+testImports:
+- name: github.com/smartystreets/goconvey
+  version: ef6db91d284a0e7badaa1f0c404c30aa7dee3aed
+  subpackages:
+  - convey

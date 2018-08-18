@@ -1,0 +1,13 @@
+package: go_base.
+import:
+- package: github.com/astaxie/beego
+  version: 1.8.0
+- package: github.com/coocood/freecache
+- package: github.com/garyburd/redigo/redis
+- package: github.com/go-sql-driver/mysql
+- package: github.com/bitly/go-simplejson
+- package: git.oschina.net/qiangmzsx/beegofreecache
+testImport:
+- package: github.com/smartystreets/goconvey
+  subpackages:
+  - convey
